@@ -24,10 +24,14 @@ A Rust-based internal reporting tool that extracts, transforms, and visualizes b
 
 ### src/
   - **main.rs** // Application Entry Point & Main Executable
-  - **lib.rs** // Library Crate
+  - **lib.rs** // Library Crate & Integratable Public API
   - **data_models.rs** // Data Structures & Serialization
   - **data_processing.rs** // Data Extraction & Data Transformation Logic
   - **report_generator.rs** // .xlsx file generation for Excel
+
+The project can be used as:
+- **Executable**: `cargo run` to generate reports
+- **Library**: Import into other Rust projects for data processing capabilities
 
 
 ## ️ Getting Started

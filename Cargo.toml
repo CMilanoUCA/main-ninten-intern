@@ -2,12 +2,17 @@
 name = "main_ninten_intern"
 version = "0.1.0"
 edition = "2021"
+description = "A Rust-based business reporting tool for business insights with Excel report generation."
+authors = ["Carson Milano <cmilano@cub.uca.edu"]
+license = "MIT"
+repository = "https://github.com/CMilanoUCA/main-ninten-intern.git"
+readme = "READMER.md"
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 tokio = { version = "1.0", features = ["full"] }
-reqwest = "0.11"            
+reqwest = "0.11"
 polars = { version = "0.35.0", features = ["lazy", "csv", "json"] }
 rust_xlsxwriter = "0.34.0"
 rand = "0.8.0"
